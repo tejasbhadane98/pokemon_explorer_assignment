@@ -1,7 +1,7 @@
 import axios from "axios";
 import Link from "next/link";
 import { useRouter } from "next/router";
-import "../../style/global.css";
+// import "../../style/global.css";
 
 export default function PokemonDetail({ pokemon }) {
   const router = useRouter();

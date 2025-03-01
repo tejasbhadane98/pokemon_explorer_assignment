@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import "../style/global.css";
+// import "../style/global.css";
 
 export default function Home() {
   const [pokemons, setPokemons] = useState([]);
