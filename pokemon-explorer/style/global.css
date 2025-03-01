@@ -1,0 +1,121 @@
+.container {
+    max-width: 100%;
+    margin: auto;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+.back-button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.back-button {
+    background-color: #0070f3;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: #005bb5;
+}
+
+.pokemon-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    justify-content: center;
+    padding: 10px 20px;
+    margin: auto;
+}
+
+.pokemon-card {
+    text-decoration: none;
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 4px 6px 12px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+}
+
+.pokemon-card img {
+    width: 180px; 
+    height: 180px;
+}
+
+.pokemon-card img,
+.detail-image {
+    width: 200px;
+    height: 200px;
+}
+
+
+.pokemon-card:hover {
+    transform: scale(1.05);
+}
+
+.pokemon-card img {
+    width: 130px;
+    height: 130px;
+}
+
+.pokemon-card h3 {
+    font-size: 18px;
+    color: #333;
+}
+
+.pokemon-detail-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;
+    overflow-x: hidden;     
+}
+
+.detail-image {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    margin-bottom: 20px;
+}
+
+.detail-info {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #555;
+    margin-top: -10px;
+}
+
+.detail-stats {
+    text-align: left;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    background: #f4f4f4;
+}
+
+.detail-stats h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.detail-stats ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.detail-stats li {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #555;
+}
